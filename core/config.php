@@ -1,5 +1,5 @@
 <?php 
-    $conn = New Mysqli("localhost", "fagravirdb", "Transit1.9", "fagravirdb");
+    $conn = New Mysqli("localhost", "root", "", "fagravirdb");
     if (session_status() == PHP_SESSION_NONE){
         session_start();
         if (!isset($_SESSION['id'])){
